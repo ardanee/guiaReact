@@ -1,0 +1,12 @@
+bracket pair colorizer/ autor: CoenraadS (aplica colores a los pares de llaves)
+generate-react-component / autor: joshjg (permite importar componentes facilmente)
+live server / autor: Ritwick Dey (web server que permite aplicar cambios automáticos desde code)
+Prettier / autor: Esben Petersen (formateador de código)
+Reactjs code snippets/ autor: charalampos karypidis (snippets para reactjs)
+React Component/ autor: Jeremy Rajan (crear componentes)
+JavaScript (ES6) code snippets / charalampos karypidis (snippets para js)
+React Redux Snippets / autor:Daniel Beff
+
+
+
+

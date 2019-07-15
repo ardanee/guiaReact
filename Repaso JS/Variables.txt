@@ -1,0 +1,10 @@
+Formas de declarar variables:
+
+VARIABLES
+var nombreVariable = "forma antigua"
+let nombreVariable =  "nueva forma evita hoisting (comportamiento por defecto al no ser necesario declarar variables, js las sobreescribe)" 
+const nombreVariable = "No se puede reasignar, pero no es inmutable"
+
+
+
+

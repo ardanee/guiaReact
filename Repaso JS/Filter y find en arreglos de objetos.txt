@@ -1,0 +1,13 @@
+const personas = [
+{nombre:"Nombre 1", edad:15},
+{nombre:"Nombre 2", edad:18},
+{nombre:"Nombre 3", edad:21}
+];
+
+const mayores = personas.filter(persona=>{
+	return persona.edad>18;
+});
+
+const persona2 = personas.find(persona=>{
+	return persona.nombre==='Nombre 2'
+});

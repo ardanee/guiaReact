@@ -1,0 +1,18 @@
+//Destructuring objects
+//permite extraer objetos
+
+const curso ={
+version:{
+	nueva:"ES6",
+	anterior:"ES5"	
+},
+frameworks:['react','vueJS','AngularJS']
+}
+
+
+//Forma tradicional
+let frameworks =  curso.frameworks;
+let version =  curso.version;
+
+//nueva forma:
+let {version, frameworks} = curso;

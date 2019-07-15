@@ -1,0 +1,24 @@
+FUNCIONES
+
+//definición de forma tradicional
+function(nombre){
+	console.log(´Bienvenido ${nombre}´);
+}
+
+//función anónima o de asignación forma tradicional 
+var variable = function(parametro){
+	return "Bienvenido" + parametro;
+}
+
+
+//Arrow Function
+//con un solo parámetro
+let variable =  parametro=>{
+	return ´Hola ${parametro}´;
+}
+
+
+//con un dos o más parámetros
+let variable =  (nombre,apellido=>{
+	return ´Hola ${nombre} ${apellido}´;
+}

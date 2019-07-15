@@ -1,0 +1,19 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script src="/index.js"></script>
+        <script src="./oop/Tarea.js"></script>
+        <script src="./oop/Compra.js"></script>
+        <script>
+            //cómo usar una clase
+                let tarea1= new Tarea("Aprender JS","Alta");
+                console.log(tarea1.mostrar());
+
+                //instancia una subclase (compra) de la clase tarea
+                let tarea2 =  new Compra("Azúcar","media", 3);
+                console.log(tarea2.mostrar());
+        </script>
+    </body>
+</html>

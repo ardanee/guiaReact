@@ -1,0 +1,11 @@
+//métodos o funciones en un objeto
+
+const persona={
+nombre: "Juan"
+,trabajo: "Desarrollo web"
+,edad:50
+,musicaRock: true
+,mostrarInformacion:function(){
+console.log(´Nombre: ${this.nombre} edad: ${edad}´);	
+}
+}

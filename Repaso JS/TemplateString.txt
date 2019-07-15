@@ -1,0 +1,3 @@
+TEMPLATESTRING PARA CONCATENAR
+let msg = ´El texto a mostrar es: ${variableTexto}´;
+

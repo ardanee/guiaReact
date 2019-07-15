@@ -1,0 +1,15 @@
+//OBJETOS
+//Object literal (se crea cada objeto de forma individual)
+
+const persona = {
+nombre:"Juan",
+profesion:"Desarrollador",
+edad:30
+}
+
+const persona2 = {
+nombre:"Marvin",
+profesion:"Desarrollador web",
+edad:32
+}
+

@@ -1,0 +1,16 @@
+//
+
+const nombre= 'Metallica';
+const genero = "Heavy Metal";
+const canciones = ['Master of puppets',"Seek & destroy","enter sandman"];
+
+//Forma tradicional
+
+const banda = {
+nombre:nombre,
+genero:genero,
+canciones:canciones
+}
+
+//nueva forma
+const banda = {nombre,genero,canciones};
