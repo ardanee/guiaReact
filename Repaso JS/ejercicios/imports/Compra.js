@@ -1,4 +1,4 @@
-import Tarea from './Tarea';
+import Tarea from './Tarea.js';
 export default class Compra extends Tarea {
   constructor(nombre, prioridad, cantidad) {
     super(nombre, prioridad);
