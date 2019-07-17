@@ -2,8 +2,13 @@ import React,{Component} from 'react';
 
 class Resumen extends Component{
 
-render(){
+
+mostrarResumen (){
     const {marca,year,plan} = this.props.datos;
+
+    if(!marca || !year || !plan){
+        return null;
+    }
     return (
         <div className="resumen">
             <h2>Resumen de cotización</h2>
@@ -12,6 +17,11 @@ render(){
             <li>Año: {year}</li>
         </div>
     );
+}
+
+render(){
+    let res = this.mostrarResumen;
+    return res;
 }
 }
 export default Resumen;

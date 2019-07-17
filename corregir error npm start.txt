@@ -1,0 +1,5 @@
+corregir error de npm start
+
+npm install -g npm@latest para actualizar la NGP, ya que a veces está libre de errores.
+rm -rf node_modules para eliminar los módulos existentes.
+npm install para volver a instalar las dependencias del proyecto.
