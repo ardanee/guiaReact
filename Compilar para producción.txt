@@ -1,0 +1,2 @@
+//Desde la consola, ubicado en el directorio del proyecto ejecutar el siguiente comando:
+npm run build
